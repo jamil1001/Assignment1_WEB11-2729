@@ -114,6 +114,10 @@ header nav .nav-btn:hover {
 #card {
     width: 1536px;
     margin: 96px 192px 0px 192px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 32px;
 }
 
 #card>h1 {
@@ -131,3 +135,79 @@ header nav .nav-btn:hover {
     line-height: 24px;
 }
 
+#card>.card-box {
+    margin-left: 10px;
+    display: flex;
+    align-items: start;
+    gap: 28.8px;
+}
+
+
+
+#card>.card-box>.box {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 24px;
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+#card>.card-box>.box>img {
+    margin-bottom: 35px;
+}
+
+#card>.card-box>.box>button {
+    margin-top: 35px;
+}
+
+/* individual card design */
+
+#card>.card-box>.box-1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+#card>.card-box>.box-2 {
+    background: rgb(198, 228, 214);
+}
+
+#card>.card-box>.box-3 {
+    background: rgb(247, 235, 207);
+}
+
+/* individual card-BUTTON design */
+#card>.card-box>.box-1>button {
+    background: rgb(84, 144, 245);
+}
+
+#card>.card-box>.box-2>button {
+    background: rgb(9, 161, 92);
+}
+
+#card>.card-box>.box-3>button {
+    background: rgb(255, 194, 57);
+}
+
+
+/* card-box-HOVER DESIGN */
+
+#card>.card-box>.box:hover {
+    background: rgba(5, 61, 114, 0.425);
+}
+
+#card>.card-box>.box:hover button{
+    background: rgb(84, 144, 245);
+    box-shadow: 5px 5px 10px white;
+}
+
+#card>.card-box>.box:hover p{
+    color: aliceblue;
+}
+
+#card>.card-box>.box:hover img{
+    filter: drop-shadow(5px 5px 4px white);
+}
