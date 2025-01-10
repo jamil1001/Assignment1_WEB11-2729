@@ -14,7 +14,19 @@
 }
 
 /* primary button design */
+.button-hover:hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    border: 0.5px solid rgb(0, 106, 80);
+    
+    
+
+}
+.button-hover:hover .ancr-des {
+    color: rgb(0, 106, 80);
+}
+
 .btn-primary {
+    border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     background: rgb(0, 106, 80);
     padding: 13px 26px 13px 26px;
@@ -26,6 +38,10 @@
     border: none;
     text-decoration: none;
 }
+
+
+
+
 
 .ancr-des {
     color: aliceblue;
@@ -445,6 +461,8 @@ header nav .nav-btn:hover {
 #donation .all-amounts .amount:hover {
     background: rgb(198, 228, 214);
 }
+
+
 
 /* subscribe section design */
 #subscribe {
