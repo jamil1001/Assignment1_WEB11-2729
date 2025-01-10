@@ -224,7 +224,7 @@ header nav .nav-btn:hover {
 /* Quote Section */
 
 #quote {
-    
+
     margin: 40px 192px 40px 192px;
     width: 1536px;
     height: 256px;
@@ -257,7 +257,7 @@ header nav .nav-btn:hover {
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0%;
-    
+
 }
 
 #quote .his-designation {
@@ -268,3 +268,110 @@ header nav .nav-btn:hover {
     line-height: 24px;
     letter-spacing: 0%;
 }
+
+
+/* news section */
+
+#All-news {
+    margin: 40px 192px 40px 192px;
+    width: 1536px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+
+#All-news h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+
+#All-news> p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+#All-news .news {
+    width: 1536px;
+    height: 402px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#All-news .news>img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+#All-news .news>.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+#All-news .news>.content>h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+}
+
+#All-news .news>.content>img {
+    width: 134px;
+    height: 40px;
+}
+
+#All-news .news>.content>.time {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#All-news .news>.content>.description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+#All-news .left-img-news img{
+    margin-left: 48px;
+}
+#All-news .right-img-news img{
+    margin-right: 48px;
+}
+
+#All-news .right-img-news .content{
+    margin-left: 48px;
+}
+
+/* news part hover design trying */
+
+#All-news .news:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+
