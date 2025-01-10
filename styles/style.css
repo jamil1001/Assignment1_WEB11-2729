@@ -75,7 +75,7 @@ header nav .nav-btn:hover {
     justify-content: space-between;
     width: 1536px;
     height: 560px;
-    margin: 96px 192px 0px 192px;
+    margin: 96px 192px 0px 175px;
 }
 
 #banner>img {
@@ -113,7 +113,7 @@ header nav .nav-btn:hover {
 /* Card design */
 #card {
     width: 1536px;
-    margin: 96px 192px 0px 192px;
+    margin: 96px 192px 0px 175px;
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -273,7 +273,7 @@ header nav .nav-btn:hover {
 /* news section */
 
 #All-news {
-    margin: 40px 192px 40px 192px;
+    margin: 40px 192px 40px 175px;
     width: 1536px;
     display: flex;
     flex-direction: column;
