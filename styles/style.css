@@ -157,6 +157,16 @@ header nav .nav-btn:hover {
     background: rgba(84, 144, 245, 0.2);
 }
 
+#card>.card-box>.box>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 #card>.card-box>.box>img {
     margin-bottom: 35px;
 }
@@ -196,18 +206,65 @@ header nav .nav-btn:hover {
 /* card-box-HOVER DESIGN */
 
 #card>.card-box>.box:hover {
-    background: rgba(5, 61, 114, 0.425);
+    background: rgba(0, 106, 80, 0.774);
 }
 
-#card>.card-box>.box:hover button{
-    background: rgb(84, 144, 245);
-    box-shadow: 5px 5px 10px white;
+#card>.card-box>.box:hover button {
+    background: rgb(5, 66, 23);
+    box-shadow: 3px 3px 10px white;
 }
 
-#card>.card-box>.box:hover p{
-    color: aliceblue;
+
+
+#card>.card-box>.box:hover img {
+    filter: drop-shadow(3px 3px 5px white);
 }
 
-#card>.card-box>.box:hover img{
-    filter: drop-shadow(5px 5px 4px white);
+
+/* Quote Section */
+
+#quote {
+    
+    margin: 40px 192px 40px 192px;
+    width: 1536px;
+    height: 256px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../assests/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px 35px;
+}
+
+#quote .his-quote {
+    margin-left: 30px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#quote>h2 {
+    margin-left: 30px;
+    margin-bottom: 8px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+}
+
+#quote .his-designation {
+    margin-left: 30px;
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
