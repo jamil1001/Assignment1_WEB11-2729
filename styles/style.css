@@ -291,7 +291,7 @@ header nav .nav-btn:hover {
     margin-bottom: 12px;
 }
 
-#All-news> p {
+#All-news>p {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -357,21 +357,190 @@ header nav .nav-btn:hover {
     letter-spacing: 0%;
 }
 
-#All-news .left-img-news img{
+#All-news .left-img-news img {
     margin-left: 48px;
 }
-#All-news .right-img-news img{
+
+#All-news .right-img-news img {
     margin-right: 48px;
 }
 
-#All-news .right-img-news .content{
+#All-news .right-img-news .content {
     margin-left: 48px;
 }
 
 /* news part hover design trying */
 
-#All-news .news:hover{
+#All-news .news:hover .news-img {
     box-shadow: 5px 5px 5px black;
 }
 
+/* Donation Section */
+#donation {
+    margin: 0px 192px 40px 175px;
+    width: 1536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+#donation>h1 {
+    margin-top: 80px;
+    margin-bottom: 24px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#donation .description {
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+#donation .all-amounts {
+    margin-bottom: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+#donation .all-amounts>.amount {
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+#donation>input {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 1238px;
+    height: 64px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+#donation .all-amounts .amount:hover {
+    background: rgb(198, 228, 214);
+}
+
+/* subscribe section design */
+#subscribe {
+    margin: 80px 192px 40px 175px;
+    width: 1536px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+#subscribe h1 {
+    margin-top: 80px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+#subscribe .email-sub {
+    margin: 24px;
+    display: flex;
+
+}
+
+#subscribe .email-sub input {
+    border-style: none;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    width: 600px;
+    height: 55px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding-left: 35px;
+}
+
+#subscribe .email-sub button {
+    border-radius: 0px;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+}
+
+#subscribe .descreption {
+    text-align: center;
+    width: 600px;
+    margin-top: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+#subscribe .ending {
+    margin-top: 25px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+/* footer section */
+footer {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+}
+footer .line-breaker {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 1px solid rgba(121, 120, 120, 0.384);
+    width: 1400px;
+}
+
+footer .icons {
+    display: flex;
+    gap: 23px;
+    margin-bottom:50px ;
+}
