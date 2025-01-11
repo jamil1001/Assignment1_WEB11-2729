@@ -89,9 +89,11 @@ header nav .nav-btn:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1536px;
+    width: 75vw;
     height: 560px;
-    margin: 96px 192px 0px 175px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
 }
 
 #banner>img {
@@ -128,8 +130,13 @@ header nav .nav-btn:hover {
 
 /* Card design */
 #card {
-    width: 1536px;
-    margin: 96px 192px 0px 175px;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 75vw;
+    /* width: 1536px; */
+    
+    margin-top: 96px;
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -152,6 +159,7 @@ header nav .nav-btn:hover {
 }
 
 #card>.card-box {
+    width: 98%;
     margin-left: 10px;
     display: flex;
     align-items: start;
@@ -167,7 +175,7 @@ header nav .nav-btn:hover {
     align-items: start;
     justify-content: center;
     gap: 24px;
-    width: 410.67px;
+    width: 28%;
     height: 325px;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
@@ -223,6 +231,7 @@ header nav .nav-btn:hover {
 
 #card>.card-box>.box:hover {
     background: rgba(0, 106, 80, 0.774);
+    border: 2px solid rgba(1, 43, 32, 0.774);
 }
 
 #card>.card-box>.box:hover button {
@@ -241,8 +250,11 @@ header nav .nav-btn:hover {
 
 #quote {
 
-    margin: 40px 192px 40px 175px;
-    width: 1536px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75vw;
     height: 256px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -289,8 +301,12 @@ header nav .nav-btn:hover {
 /* news section */
 
 #All-news {
-    margin: 40px 192px 40px 175px;
-    width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* width: 1536px; */
+    width: 75vw;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -317,7 +333,8 @@ header nav .nav-btn:hover {
 }
 
 #All-news .news {
-    width: 1536px;
+    /* width: 1536px; */
+    width: 100%;
     height: 402px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 24px;
@@ -373,11 +390,11 @@ header nav .nav-btn:hover {
     letter-spacing: 0%;
 }
 
-#All-news .left-img-news img {
+#All-news .left-img-news .news-img {
     margin-left: 48px;
 }
 
-#All-news .right-img-news img {
+#All-news .right-img-news .news-img{
     margin-right: 48px;
 }
 
@@ -393,8 +410,10 @@ header nav .nav-btn:hover {
 
 /* Donation Section */
 #donation {
-    margin: 0px 192px 40px 175px;
-    width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:40px;
+    width: 75vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -466,8 +485,11 @@ header nav .nav-btn:hover {
 
 /* subscribe section design */
 #subscribe {
-    margin: 80px 192px 40px 175px;
-    width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 75vw;
     height: 395px;
     display: flex;
     flex-direction: column;
